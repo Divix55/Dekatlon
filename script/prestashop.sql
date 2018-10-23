@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql:3306
--- Czas generowania: 22 Paź 2018, 17:03
+-- Czas generowania: 23 Paź 2018, 14:55
 -- Wersja serwera: 5.7.23
 -- Wersja PHP: 7.2.8
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Baza danych: `prestashop`
 --
+CREATE DATABASE IF NOT EXISTS `prestashop` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `prestashop`;
 
 -- --------------------------------------------------------
 
@@ -4612,7 +4614,8 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (1, 1, 1, 1, 1, 2130706433, '2018-10-18 20:20:51', 'http://www.prestashop.com'),
 (2, 1, 1, 3, 1, 2886860801, '2018-10-18 20:24:52', ''),
 (3, 1, 1, 3, 1, 2886860801, '2018-10-20 13:55:48', ''),
-(4, 1, 1, 3, 1, 2886860801, '2018-10-20 14:28:29', '');
+(4, 1, 1, 3, 1, 2886860801, '2018-10-20 14:28:29', ''),
+(5, 1, 1, 3, 1, 2886860801, '2018-10-22 19:04:53', '');
 
 -- --------------------------------------------------------
 
@@ -15478,7 +15481,7 @@ ALTER TABLE `ps_configuration_kpi`
 -- AUTO_INCREMENT dla tabeli `ps_connections`
 --
 ALTER TABLE `ps_connections`
-  MODIFY `id_connections` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_connections` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_connections_source`
