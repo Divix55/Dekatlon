@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>paypal</name>
+    <displayName><![CDATA[PayPal]]></displayName>
+    <version><![CDATA[4.4.2]]></version>
+    <description><![CDATA[Korzystaj z kompleksowej platformy PayPal do przetwarzania p?atno?ci i rozwijaj swoj? krajow? i mi?dzynarodow? dzia?alno?? handlow? w Internecie i na urz?dzeniach mobilnych. Akceptuj karty kredytowe, karty debetowe i p?atno?ci PayPal.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Czy na pewno chcesz usun?? swoje dane?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
